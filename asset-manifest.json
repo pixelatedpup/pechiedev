@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/pechiedev/static/css/main.b7fe2116.css",
-    "main.js": "/pechiedev/static/js/main.bdd60730.js",
+    "main.js": "/pechiedev/static/js/main.24a0e09b.js",
     "static/js/453.4ab53dad.chunk.js": "/pechiedev/static/js/453.4ab53dad.chunk.js",
     "static/media/Archarcades.png": "/pechiedev/static/media/Archarcades.6117f18d99462b4bbec3.png",
     "static/media/llp.png": "/pechiedev/static/media/llp.c2e785afdd09f7ac8bce.png",
     "static/media/cmenu.png": "/pechiedev/static/media/cmenu.73c6bb6c57fd80bdf137.png",
     "index.html": "/pechiedev/index.html",
     "main.b7fe2116.css.map": "/pechiedev/static/css/main.b7fe2116.css.map",
-    "main.bdd60730.js.map": "/pechiedev/static/js/main.bdd60730.js.map",
+    "main.24a0e09b.js.map": "/pechiedev/static/js/main.24a0e09b.js.map",
     "453.4ab53dad.chunk.js.map": "/pechiedev/static/js/453.4ab53dad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b7fe2116.css",
-    "static/js/main.bdd60730.js"
+    "static/js/main.24a0e09b.js"
   ]
 }
