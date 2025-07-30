@@ -7,11 +7,11 @@ import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   useEffect(() =>{
-    document.title = 'ogius';
+    document.title = 'PECHIEDEV';
   }, []);
   return (
     <div className="App"> 
-        <BrowserRouter>
+        <BrowserRouter basename="/pechiedev">
           <Body />
         </BrowserRouter> 
     </div>

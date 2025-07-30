@@ -29,12 +29,11 @@ const Body = () => {
                     <Route path="/works" element={<Works />} />
                     <Route path="/about" element={<About />} />
                 </Routes>
-                </div>
-                
-                <div className='nav-wrapper'>
-                  
+                </div>   
+                <div className="nav-wrapper">       
                 <Nav />
-                </div>
+                </div>    
+
         </div>
 
       </main>

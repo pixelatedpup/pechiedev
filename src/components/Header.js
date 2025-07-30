@@ -8,8 +8,8 @@ const Header = () => {
                id="link-item"
                style={{textDecoration: 'none'}}><h2 id="logo">PECHIEDEV</h2></NavLink> 
                <ul className="options">
-                    <li>LANG</li>
-                    <li>SWITCH</li>
+                    <li><b><a href="https://www.behance.net/ogius">ILLUSTRATIONS</a></b></li>
+               
                </ul>
         </div>
     );

@@ -5,9 +5,9 @@ function About(){
     return(
     <>
         
-        <h1> About me</h1>
+        <h1 className="titlesCol"> About me</h1>
         <div class= "about-container">
-        <p id="aboutme" style={{paddingLeft: '30px', paddingRight: '50px', fontSize: '24px' , lineHeight: '1.5', color: '#789be2'}}>
+        <p id="aboutme" style={{paddingLeft: '30px', paddingRight: '50px', fontSize: '24px' , lineHeight: '1.5'}}>
                     I am a <strong>Frontend web developer</strong> and <strong>UI/UX artist </strong>with a Bsc (Hons) in
                     Computer Science from the University of the West of England.
                     Experienced in building responsive, user-friendly web applications
@@ -17,13 +17,7 @@ function About(){
                     conception to the final product.
             </p>
             <div id="aboutPhoto"
-            style={{border: '1px solid',
-                borderRadius: '17px',
-                marginRight: '17px',
-                height:'300px',
-                overflowY: 'auto',
-                padding: '10px',
-                backgroundColor: '#eff5ff'
+            style={{
             }}> 
                 <ul className="about-items">
                     <li style={{borderBottom: "1px solid grey", padding: '20px'}}>
@@ -31,7 +25,9 @@ function About(){
                     <br/>
                     {stack.map((group, index) => (
                         <div key={index}>
-                        <strong>{group.title}</strong>
+                        <strong style = {{fontSize: "26px",
+                                            color: "#91b6b8"
+                        }}>{group.title}</strong>
                         <p>{group.items.join(', ')}</p>
                         <br/>
                         </div>

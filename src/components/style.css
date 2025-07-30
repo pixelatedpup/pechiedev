@@ -29,7 +29,7 @@ ul li a{
 }
 
 h1 b{
-    color: #789be2;
+    color: #7bcc5e;
 }
 
 footer{
@@ -65,17 +65,18 @@ ul.options li {
 
 
 nav {
+   
     display: flex;
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    margin: 0 auto; 
-    background-color: #8fc9ff;
-    border: 1.5px solid rgb(75, 80, 213);
+    /* margin: 0 auto;  */
+    background-color: #a9e758;
+    border: 0.5px solid rgb(161, 191, 187);
     border-radius: 17px;   
     height: 360px;
-    margin-right: 20px;
     transition: height 0.3s ease;
+    box-shadow: 3px 5px 17px -19px;
   
    
   }  
@@ -93,7 +94,7 @@ nav ul{
 }
 
 h1{
-    font-size: 70px;
+    font-size: 60px;
 }
 
 /* Nav adjacent elements*/
@@ -111,7 +112,7 @@ h1{
 }
 
 .nav-row{
-        display: inline-flex; 
+        display: flex; 
         flex-direction: row;
         /* justify-content: center; 
         margin: 0 auto; */
@@ -138,27 +139,29 @@ nav li#link-item{
     color: inherit;
 }
 
-/* .nav-wrapper{
+.nav-wrapper{
     
     flex: 1;
-    display: flex;
+    padding: 15px;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 360px;
+    height: 360px; */
 
     
-} */
+} 
 
 .nav-link{
-    color:rgb(44, 0, 78);
+    color:rgb(47, 58, 47);
     font-size: 22px;
     text-shadow: 7px 9px 17px -6px black;
+    font-weight:bold;
 }
 
 .nav-link.active{
     font-weight:bold;
     transform: scale(1.2);
-    color: white;
+    color: rgb(232, 255, 250);
 }
 
 nav.collapsed{
@@ -232,16 +235,16 @@ nav.collapsed ul{
     padding: 10px;
     border-radius: 8px;
     display: inline-flex;
-    background-color: #eff5ff;
+    background-color: #effff1;
     margin: 10px;
 }
 
 li.back{
-    background-color: #d8e6fe;
+    background-color: #dfffe6;
 }
 
 li.db{
-    background-color: #bfd6ff;
+    background-color: #bfffd6;
     
 }
 
@@ -253,17 +256,17 @@ li.db{
 #name{
     animation-name: fade-down;
     animation-duration: 1.5s;
-    font-size: 85px;
+    font-size: 60px;
 }
 
 
 #desc{
     opacity: 0;
-    margin-top: 30px;
-    font-size: 35px;
+    margin-top: 14px;
+    font-size: 23px;
     animation: fade-up 1s ease-in forwards;
     animation-delay: 1.3s;
-    color: #97add5;
+    color: #98b891;
 }
 .front, .back, .db{
     opacity: 0;
@@ -293,6 +296,29 @@ li.db{
     flex-direction: column;
 }
 
+.work-links h5:nth-child(2){
+    background-color: black; 
+    padding: 7px ;
+    border-radius:16px;
+}
+
+.work-links h5:hover{
+    background-color: #33a592;
+    transition: 0.5s;
+}
+.git{
+    background-color:grey;
+        padding: 7px ;
+    border-radius:16px;
+
+}
+
+.git.available{
+    background-color: black;
+    padding: 7px ;
+    border-radius:16px;
+}
+
 .work-item {
     /* margin-top: 20px; */
     padding: 10px 80px;
@@ -306,13 +332,21 @@ li.db{
     transform: scale(1.1);
 }
 
+
+
 .title-item.activeClick{
-    color: blue;
+    color: rgb(0, 175, 175);
     transform: scale(1.1);
 }
 
 .titlesA{
-    color: #789be2; 
+    color: white; 
+    background-color: #33a592;
+    border-radius: 16px;
+}
+
+.titlesCol{
+    color: #7bcc5e;;
 }
 
 .work-details {
@@ -321,13 +355,12 @@ li.db{
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     display: flex;
-    align-items: left;
+    /* align-items: left; */
     flex-direction: column;
     padding: 20px;
     border-radius: 17px;
     border: 1px solid rgb(197, 192, 192);
-    background-color: #eff5ff;
-    margin: 10px;
+    background-color: #fbffff;
     box-shadow: 7px 9px 17px -19px;
     animation: pop-up 0.3s ease-in;
 }
@@ -346,7 +379,7 @@ li.db{
 }
 
 .work-text {
-    margin-top: 10px;
+    padding-top: 10px;
     text-align: left;
 }
 
@@ -386,15 +419,15 @@ li.db{
     /* justify-content: space-between; */
     align-items: center;
     width: 100%;
-    border-bottom: solid 1px gray;
-    box-shadow: 7px 9px 17px -19px;
-    background-color: #8fc9ff;
-    color: white;
+    border-bottom: solid 1px rgb(199, 219, 193);
+    /* box-shadow: 3px 5px 17px -19px; */
+    background-color: #f8fef3;
+    color: black;
     margin-bottom: 50px;
 }
 
 .Header a{ 
-    color: white;
+    color: black;
 }
 
 
@@ -408,8 +441,45 @@ li.db{
 .content{
     display: flex;
     flex-direction: row;
+    gap: 7px;
     height: 100%;  
     width: 100%;}
+
+
+
+@media(max-width: 800px) {
+
+    .title-item.activeClick{
+        background-color: rgb(102, 11, 206);
+        color: white;
+        border-radius: 16px;
+        padding: 10px;
+        transition: 0.75s;
+        gap: 15px;
+    }
+
+    .content {
+    flex-direction: column-reverse;
+    gap: 15px;
+    }
+
+    .work-item .title-item {
+        font-size: 20px;
+    }
+
+    .works-section{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+
 
 
 
@@ -423,17 +493,27 @@ li.db{
 }
 .about-container{
     display: flex;
-    margin-top: 40px;
-    padding: 40px;
+    padding-top: 40px;
+    justify-content: center;
 }
 #aboutPhoto{
     flex: 1;
-    width: 30%
+    width: 60%;
+    border: 1px solid;
+    border-radius: 17px;
+    margin-right: 17px;
+    height:300px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #aec4c3;
+    box-shadow: 7px 9px 17px -19px;
 }
 #aboutme{
     flex: 1;
     width: 70%;
     text-align: left;
+    color: #3d5253;
 }
 
 .portfolio {
@@ -444,6 +524,35 @@ li.db{
     margin: 40px;
     height: 80%;
 }
+
+.imageBg{
+    object-fit: cover;
+    background-color: black;
+}
+
+.useImage:hover{
+    opacity: 20%; 
+}
+
+.goButton {
+  position: absolute;
+  font-size: 20px;
+  background-color: rgb(187, 255, 60);
+  color: black;
+  border-radius: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  height: 30px;
+  width: 70px;
+  transition: transform 0.3s ease;
+}
+
+.goButton:hover {
+  transform: translate(-50%, -50%) scale(1.5);
+}
+
+
 
 .portfolio .port{
     list-style: none;
@@ -462,6 +571,19 @@ li.db{
     flex: 1 1 100%;
 }
 
+.options li a {
+  background-color: black;
+  color: rgb(187, 255, 60);
+  padding: 15px;
+  border-radius: 16px;
+  text-decoration: none;
+}
+
+.options li a:hover {
+  background-color: rgb(80, 88, 70);
+  color: rgb(206, 241, 149);
+  transition: 0.2s;
+}
 
 @keyframes fade-down{
     from{

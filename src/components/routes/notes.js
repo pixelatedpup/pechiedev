@@ -1,7 +1,7 @@
 export const stack = [
-    { title: "Frontend", items: ["HTML/CSS", "React", "TypeScript", "NextJS", "Tailwind"] },
-    { title: "Backend", items: ["NodeJS", "Flask", "Django"] },
-    { title: "Database", items: ["PostgreSQL", "MongoDB", "MySQL"] }
+    { title: "FRONTEND", items: ["HTML/CSS", "React", "TypeScript", "NextJS", "Tailwind"] },
+    { title: "BACKEND", items: ["NodeJS", "Flask", "Django"] },
+    { title: "DATABASE", items: ["PostgreSQL", "MongoDB", "MySQL"] }
 ];
 
 
