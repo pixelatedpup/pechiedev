@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/pechiedev/static/css/main.ad920d26.css",
-    "main.js": "/pechiedev/static/js/main.a0d370e8.js",
+    "main.js": "/pechiedev/static/js/main.0b536652.js",
     "static/js/453.4ab53dad.chunk.js": "/pechiedev/static/js/453.4ab53dad.chunk.js",
-    "static/media/Archarcades.png": "/pechiedev/static/media/Archarcades.6117f18d99462b4bbec3.png",
+    "static/media/Archarcades.png": "/pechiedev/static/media/Archarcades.de635fa9137609433abb.png",
+    "static/media/LunaComics.png": "/pechiedev/static/media/LunaComics.e19f8a561091e5c796ff.png",
     "static/media/SunsetCinema.png": "/pechiedev/static/media/SunsetCinema.6b213c5c0663dfb3d6b8.png",
     "static/media/llp.png": "/pechiedev/static/media/llp.c2e785afdd09f7ac8bce.png",
     "static/media/cmenu.png": "/pechiedev/static/media/cmenu.73c6bb6c57fd80bdf137.png",
     "index.html": "/pechiedev/index.html",
     "main.ad920d26.css.map": "/pechiedev/static/css/main.ad920d26.css.map",
-    "main.a0d370e8.js.map": "/pechiedev/static/js/main.a0d370e8.js.map",
+    "main.0b536652.js.map": "/pechiedev/static/js/main.0b536652.js.map",
     "453.4ab53dad.chunk.js.map": "/pechiedev/static/js/453.4ab53dad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad920d26.css",
-    "static/js/main.a0d370e8.js"
+    "static/js/main.0b536652.js"
   ]
 }
