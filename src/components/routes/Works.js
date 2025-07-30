@@ -2,6 +2,7 @@ import { useState } from 'react';
 import littlelemon from '../llp.png';
 import archarcades from '../Archarcades.png';
 import sunset from '../SunsetCinema.png'
+import luna from '../LunaComics.png'
 
 function Works() {
     const works = [
@@ -32,13 +33,13 @@ function Works() {
                 ux: "https://www.figma.com/design/xQmXqE7RHiI2UZT2P8xPp1/Little-Lemon?node-id=6-31&t=495W8Djuur23lyim-1",
                 prototype: ""},
 
-                { title: "Lunar Comics", 
+                { title: "Luna Comics", 
                         tools: "Figma",
                         description: "A website for looking for independent comics and magzines.", 
                         duration: "1 month", 
-                        img: "projectA.jpg" ,
+                        img: luna,
                         git: "",
-                        ux: "",
+                        ux: "https://www.figma.com/design/Kna0diSuiVj27riXsZGaGK/Lunar-Comics?node-id=0-1&p=f&t=7QTDAm80oyFPxMyZ-0",
                         prototype: ""},
 
                 { title: "OGIUS", 
