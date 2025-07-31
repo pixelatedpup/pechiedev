@@ -8,7 +8,7 @@ const Header = () => {
                id="link-item"
                style={{textDecoration: 'none'}}><h2 id="logo">PECHIEDEV</h2></NavLink> 
                <ul className="options">
-                    <li><b><a href="https://www.behance.net/ogius">ILLUSTRATIONS</a></b></li>
+                    <li><b><a href="https://github.com/pixelatedpup">GITHUB</a></b></li>
                
                </ul>
         </div>
