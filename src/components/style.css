@@ -421,7 +421,7 @@ li.db{
     width: 100%;
     border-bottom: solid 1px rgb(199, 219, 193);
     /* box-shadow: 3px 5px 17px -19px; */
-    background-color: #f8fef3;
+    background-color: #fbfcfa;
     color: black;
     margin-bottom: 50px;
 }
@@ -539,13 +539,15 @@ li.db{
   font-size: 20px;
   background-color: rgb(187, 255, 60);
   color: black;
-  border-radius: 16px;
+  border-radius: 20px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  height: 30px;
-  width: 70px;
+  height: 50px;
+  width: 120px;
   transition: transform 0.3s ease;
+  font-weight: bold;
+  border: none;
 }
 
 .goButton:hover {
