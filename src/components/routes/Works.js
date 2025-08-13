@@ -26,16 +26,7 @@ function Works() {
         ux: "https://www.figma.com/design/WOFTb63byDA1zXHgfyuEkS/Sunset-Cinemas?node-id=46-194&t=6OQCh2EQxwAfqBKZ-1",
         prototype: "https://example.com"
     },
-    {   
-        title: "Little Lemon",
-        tools: "Figma, React, JavaScript", 
-        description: "A project I made during my Meta Frontend Certificate program. It was first designed in Figma as both a mobile app and desktop website. Currently the github program shows the booking system implemented.", 
-        duration: "1 month", 
-        img: littlelemon,
-        git: "https://github.com/pixelatedpup/littlelemon1.git",
-        ux: "https://www.figma.com/design/xQmXqE7RHiI2UZT2P8xPp1/Little-Lemon?node-id=6-31&t=495W8Djuur23lyim-1",
-        prototype: "https://example.com"
-    },
+
     {   
         title: "Luna Comics", 
         tools: "Figma",
@@ -45,17 +36,18 @@ function Works() {
         git: "https://github.com/pixelatedpup/lunacomics.git",
         ux: "https://www.figma.com/design/Kna0diSuiVj27riXsZGaGK/Lunar-Comics?node-id=0-1&p=f&t=7QTDAm80oyFPxMyZ-0",
         prototype: "https://example.com"
-    },
-    {   
-        title: "OGIUS", 
-        tools: "Figma, React, JavaScript, TypeScript, TailwindCSS",
-        description: "A portfolio website for illustrator and small business owner OGIUS. It was made in the sole intention to show past works, acquire clients and update fans", 
-        duration: "N/A", 
-        img: "projectA.jpg" ,
-        git: "",
-        ux: "",
-        prototype: "https://example.com"
     }
+    // ,
+    // {   
+    //     title: "OGIUS", 
+    //     tools: "Figma, React, JavaScript, TypeScript, TailwindCSS",
+    //     description: "A portfolio website for illustrator and small business owner OGIUS. It was made in the sole intention to show past works, acquire clients and update fans", 
+    //     duration: "N/A", 
+    //     img: "projectA.jpg" ,
+    //     git: "",
+    //     ux: "",
+    //     prototype: "https://example.com"
+    // }
 ];
 
 
