@@ -11,7 +11,7 @@ function App() {
   }, []);
   return (
     <div className="App"> 
-        <BrowserRouter basename="/pechiedev">
+        <BrowserRouter basename="/">
           <Body />
         </BrowserRouter> 
     </div>
